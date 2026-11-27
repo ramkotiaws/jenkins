@@ -25,7 +25,7 @@ pipeline {
             steps {
                 script{
                     sh """
-                        echo "Hello Build1"
+                        echo "Hello Build12"
                         env 
                         echo "Hello ${params.PERSON}"                      
                     """
